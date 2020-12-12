@@ -2,9 +2,9 @@
 
 
 ## Features
-This plugin add JSDOC annotations into UI5 controller .
+This VSCode Extension add JSDOC annotations into UI5 controller .
 
-With  [@sapui5/ts-types](https://www.npmjs.com/package/@sapui5/ts-types) package it allow to autocomplete , syntax checking and increse productivity 
+With  [@sapui5/ts-types](https://www.npmjs.com/package/@sapui5/ts-types) package it allow to autocomplete , syntax checking and increase productivity 
 
 
 ![JSDOC UI5 ](images/1.gif)
