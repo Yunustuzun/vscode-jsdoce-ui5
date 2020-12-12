@@ -1,0 +1,7 @@
+<mvc:View controllerName="sap.viz.sample.Bubble.Bubble" xmlns="sap.m"
+    xmlns:viz="sap.viz.ui5.controls" xmlns:layout="sap.ui.layout"
+    xmlns:mvc="sap.ui.core.mvc" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
+    xmlns:viz.data="sap.viz.ui5.data" height="100%">
+    <layout:FixFlex id='chartFixFlex' minFlexSize="250">
+    </layout:FixFlex>
+</mvc:View>

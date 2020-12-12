@@ -1,15 +1,51 @@
 # UI5 JSDOC Sync
 
-This plugin allow to sync JSDOC and UI5 controller interface 
 
 ## Features
+This plugin add JSDOC annotations into UI5 controller .
 
-Allow to add JSDOC Annotations to UI5 controllers
+With  [@sapui5/ts-types](https://www.npmjs.com/package/@sapui5/ts-types) package it allow to autocomplete , syntax checking and increse productivity 
 
 
-![JSDOC UI5 ](images/jsdoc-ui1.gif)
+![JSDOC UI5 ](images/1.gif)
+
+![JSDOC UI5 ](images/1.png)
+
+## Installation
+
+```
+npm install -g vsce
+```
+
+
+```
+vsce package
+```
+
+```
+Vscode -> Extensions - > Install From VSIX -> Select ui5-jsdoc-sync-0.0.1 file.
+```
 
 ## Requirements
+```
+tsconfig.json 
+{
+    "compilerOptions": {
+        "module": "none",
+        "target": "es2018",
+        "noEmit": true,
+        "checkJs": true,
+        "allowJs": true,
+        "types": [
+            "@sapui5/ts-types"
+        ]
+    }
+}
+```
+
+```
+npm i sapui5/ts-types
+```
 
 ## Release Notes
 

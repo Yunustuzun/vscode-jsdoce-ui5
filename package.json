@@ -9,7 +9,16 @@
 	"categories": [
 		"Other"
 	],
-	"publisher": "yunustuzun",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Yunustuzun/vscode-ui5-jsdoc-sync.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Yunustuzun/vscode-ui5-jsdoc-sync/issues"
+	},
+	"icon": "images/icon.png",
+	"homepage": "https://github.com/Yunustuzun/vscode-ui5-jsdoc-sync",
+	"publisher": "yuntuzun",
 	"activationEvents": [
 		"onCommand:ui5-jsdoc-sync.helloWorld",
 		"onCommand:ui5-jsdoc-sync.sync"
