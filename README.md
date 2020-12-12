@@ -6,7 +6,8 @@ This plugin allow to sync JSDOC and UI5 controller interface
 
 Allow to add JSDOC Annotations to UI5 controllers
 
-\!\[feature X\]\(images/jsdoc-ui1\)
+
+![JSDOC UI5 ](images/jsdoc-ui1.gif)
 
 ## Requirements
 
